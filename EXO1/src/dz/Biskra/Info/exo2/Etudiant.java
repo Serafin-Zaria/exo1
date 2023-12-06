@@ -8,7 +8,7 @@ public class Etudiant {
 	
 	private  LocalDate date_de_naissance;
 	
-	public ArrayList<Note> notes =  new ArrayList<>();;
+	public ArrayList<Note> notes =  new ArrayList<>();
 
 	public Etudiant(String nom, String prenom, String adresse_mail, String adresse_postale,
 			LocalDate date_de_naissance) {
@@ -21,7 +21,6 @@ public class Etudiant {
 	}
 	
 	public String toString() {
-		
 		
 		return "Etudiant nom:"+nom+" prenom="+prenom+"address_mail="+adresse_mail+" adresse postal="+adresse_postale;
 		
